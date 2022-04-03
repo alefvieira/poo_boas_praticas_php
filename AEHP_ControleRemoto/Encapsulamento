@@ -71,3 +71,8 @@ interface Controlador {
     public abstract function pause();
 }
 FimIterface
+
+
+AEHP - 
+A - abstract
+E - Encapsulamento
