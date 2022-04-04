@@ -1,5 +1,5 @@
 <?php
-    interface Encap_Lutador{
+    interface Encap_Lucatador{
         
         public function apresentar();
         public function status();

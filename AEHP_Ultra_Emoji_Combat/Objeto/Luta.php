@@ -4,10 +4,11 @@
 // Desafiado e desafiante devem ser lutadores diferentes.
 // Só pode acontecer se a luta for aprovada
 // só pode ter como resultado a vitória de um dos lutadores ou o empate
-
+    // require_once "./Interfaces/Encap_Luta.php";
     require_once "Lutador.php";
+    
 
-    class Luta{
+    class Luta /*implements Encap_Luta*/{
         private $desafiado;
         private $desafiante;
         private $rounds;

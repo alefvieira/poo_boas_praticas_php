@@ -1,0 +1,73 @@
+1 - Uma casa está para uma planta arquitetonica assim como um objeto está para...
+A - um metodos
+B - uma propriedade
+C - uma classe (correta)
+D - um atributo
+
+2 - A programação orientada a objetos se preocupa em produzir software que tenha as seguintes caracteristicas
+A - NATURAL, CONFIAVEL, REUTILIZAVEL, MANUTENIVEL, EXTENSIVEL E OPORTUNO (correta) (COMERN)
+B - NATURAL, MENSURAVEL, MANUTENIVEL, INSTANTANEO
+C - CONFIAVEL, REUTILIZAVEL, EXTENSIVEL, MENSURAVEL, ACESSIVEL E FACIL DE USAR 
+D - EXTENSIVEL, NATURAL, MENSURAVEL, REUTILIZAVEL, INSTANTANEO E SIMPLES
+
+
+3 - ASSINALE A ALTERNATIVA INCORRETA COM RELAÇÃO AO CONCEITO DE CLASSE E OBJETO EM PROGRAMAÇÃO ORIENTADA A OBJETOS.
+A - UMA CLASSE É INSTANCIA DE UM OBJETO (correta) 
+B - UM OBJETO É UMA CONSTRUÇÃO DE SOFTWARE QUE ENCAPSULA ESTADO E COMPORTAMENTO
+C - UMA CLASSE DEFINE OS ATRIBUTOS E COMPORTAMENTOS COMPARTILHADOS POR UM TIPO DE OBJETOS
+D - EM UMA LINGUAGEM POO PURA, TUDO É UM OBJETO, DESDE OS TIPOS MAIS BASICOS 
+
+4 - correlacione a coluna da esquerda com a da direita e assinale a alternativa que contem a seguencia correta
+
+(1)atributo                 (3)ação executada por um objeto
+(2)classe                   (2)define os atributos e comportamentos comuns
+(3)comportamento            (1)caracteristica de um classe que é visivel
+(4)dominio                  (5)construção de software que encapsula estado e comportamento
+(5)objeto                   (4)espaço onde o problema reside
+
+A - 3,2,4,5,1
+B - 3,2,1,5,4 (correta)
+C - 2,3,1,5,4
+D - 2,4,3,1,5
+
+
+
+2,4,3,1 
+
+
+7 - QUAIS SÃO OS TRES PILARES DA PROGRAMAÇÃO ORIENTADA A OBJETOS?
+
+A - HERANÇA, POLIMORFISMO E INSTANCIA
+B - HERANÇA, POLIMORFISMO E METODOLOGIA
+C - ENCAPSULAMENTO, HERANÇA E POLIMORFISMO (correta)
+D - ENCAPSULAMENTO, POLIMORFISMO
+
+
+2,4,1,3
+
+9 - a maioria das linguagens POO suporta quais niveis de acesso?
+
+A - SECRETO, PUBLICO E PRIMÁRIO
+B - PUBLICO, PROTEGIDO E PRIVADO (correta)
+C - PUBLICO, PROTEGIDO E PRIMARIO
+D - PUBLICO, PRIVADO E SECUNDÁRIO
+
+11 - a proteção de atrubutos e operações das classes, fazendo com que estas se comuniquem com o meio externo por meio de suas interfaces, define o conceito de 
+A - POLIMORFISMO
+B - Encapsulamento (correta)
+C - HERANÇA
+D - AGREGAÇÃO
+
+12 - quando se utiliza o conceito de encapsulamento da poo, emquantp a _______ define os detalhes internos do componente, a _________ lista os serviços fornecidos por ele.
+A - interface - implementação
+B - classe - implementação
+C - interface - classes
+D - implementação - interface (correta)
+
+14 - qual é o conceito de POO que significa representar uma entidade, incluindo apenas seus atributos mais relevantes?
+A - ENCAPSULAMENTO 
+B - POLIMORFISMO
+C - HERANÇA
+D - ABSTRAÇÃO (correta)
+
+

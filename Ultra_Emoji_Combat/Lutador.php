@@ -1,7 +1,5 @@
 <?php
-    require_once "./Interfaces/Encap_Lutador.php";
-
-    class Lutador implements Encap_Lutador
+    class Lutador
     {
         private $nome;
         private $nacionalidade;
@@ -13,12 +11,12 @@
         private $derrotas;
         private $empates;
 
-        public function  getNome(){return $this->nome;}
+        private function  getNome(){return $this->nome;}
         private function  getNacionalidade(){return $this->nacionalidade;}
         private function  getIdade(){return $this->idade;}
         private function  getAltura(){return $this->altura;}
         private function  getPeso(){return $this->peso;}
-        public function  getCategoria(){return $this->categoria;}
+        private function  getCategoria(){return $this->categoria;}
         private function  getVitorias(){return $this->vitorias;}
         private function  getDerrotas(){return $this->derrotas;}
         private function  getEmpates(){return $this->empates;}
@@ -29,7 +27,7 @@
         private function setAltura($n){$this->altura = $n; }
         private function setPeso($n){
             $this->peso = $n; 
-            $this->setCategoria($n);
+           $this->setCategoria($n);
         }
         
         private function setCategoria($n){
@@ -82,18 +80,18 @@
             ";
         }
 
-        // METODOS DE VITORIA, EMPATE E DERROTA DOS LUTADORES 
+
         public function ganharLuta()
         {
-            $this->setVitorias($this-> getVitorias() + 1);
+            $this->setVitorias = $this->getVitorias() + 1;
         }
         public function perderLuta()
         {
-            $this->setDerrotas($this-> getDerrotas() + 1);
+            $this->setDerrotas = $this->getDerrotas() + 1;
         }
         public function empatarLuta()
         {
-            $this->setEmpates($this-> getEmpates() + 1);
+            $this->setEmpates = $this->getEmpates() + 1;
         }
 
     }
