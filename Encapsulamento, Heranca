@@ -71,3 +71,29 @@ interface Controlador {
     public abstract function pause();
 }
 FimIterface
+
+Herança permite basear uma classe na definição de uma outra classe previamente existente.
+A herança será aplicada tanto para caracteristicas quanto para comportamentos.
+Herança também pode ser chamada de (Mãe, Progenitora, SuperClasse, Pai)
+<Pessoa>
+- nome
+- idade
+- sexo
++ fazerAniv()
+
+<Aluno>
+- matr
+- curso
++ cancelarMatr()
+
+<Professor>
+- especialidade
+- salario
++ receberAum()
+
+<Funcionario>
+- setor
+- trabalho
++ mudarTrabalho()
+
+

@@ -3,7 +3,7 @@
     require_once "Pessoa.php";
 
 
-    class Livro implements Publicacao
+    class Livro implements Publicacao 
     {
         private $titulo;
         private $autor;
@@ -34,13 +34,15 @@
             $this-> leitor = $leitor;
             
             $this-> pagAtual = 0;
-            $this-> aberto = $false;
+            $this-> aberto = false;
 
         }
 
         public function detalhes()
         {
-
+            echo "<h4>Livro {$this-> getTitulo()} escrito por {$this-> getAutor()} </h4>";
+            echo "<p>Páginas: {$this-> getTotPag()}, folheado na página {$this->getPagAtual()}</p>";
+            echo  "<p>Sendo lido por: {$this-> getLeitor()->getNome()}</p>";
         }
 
         public function abrir()
@@ -56,21 +58,22 @@
             if($p > $this->totPag){
                 $this->pagAtual = 0;
             }else{
-                $this->getPagAtual = $p;
+                $this->setPagAtual($p);
             }
         }
+
         public function avancarPag()
         {
-            if(getPagAtual() < getTotPag()){
-                $this-> setPagAtual(getPagAtual()+1);
+            if($this->getPagAtual() < $this->getTotPag()){
+                $this-> setPagAtual($this-> getPagAtual() + 1);
 
             }
             
         }
         public function voltarPag()
         {
-            if(getPagAtual() > 0 ){
-                $this-> setPagAtual(getPagAtual()-1);
+            if($this-> getPagAtual() > 0 ){
+                $this-> setPagAtual($this-> getPagAtual() - 1);
 
             }
             

@@ -6,7 +6,7 @@
         private $sexo;
 
 
-        private function getNome(){ return $this-> nome;}
+        public function getNome(){ return $this-> nome;}
         private function getIdade(){ return $this-> idade; }
         private function getSexo(){ return $this-> sexo;}
 
