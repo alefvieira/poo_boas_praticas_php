@@ -96,4 +96,55 @@ Herança também pode ser chamada de (Mãe, Progenitora, SuperClasse, Pai)
 - trabalho
 + mudarTrabalho()
 
+Como percorrer uma arvore de heranças
+Uma arvore em herança começa com a RAIZ em cima e vai se extendendo para baixo
 
+Uma classe progenitora ou superclasse também pode ser um SUBCLASSE dependendo de quem está comparando
+
+exemplo:
+A é "SUPER CLASSE" de AA, AA é "SUBCLASSE" de A.
+AA é "SUPER CLASSE" de AAA, AAA é "SUBCLASSE" de AA.
+e por ai vai
+
+Uma "SUBCLASSE" herda tudo que sua "SUPER CLASSE" possui, independente se seus métodos ou atributos estejam acessiveis ou não.
+
+Quando uma "SUPER CLASSE" (que inicia) não é SUBCLASSE de ninguém ela é a 'RAIZ'  da arvore hieranquica.
+
+quando uma "SUBCLASSE" não possui FILHA ela é chamada de "FOLHA"
+
+A é "MÃE" de AA, AA é "FILHA" de A.
+AA é "MÃE" de AAA, AAA é "FILHA" de AA.
+AAA É "DESCENDENTE" de A (não se deve considerar a MÃE como descendente) e A é "ANCESTRAL" de AAA
+
+quando pegamos da RAIZ da arvore de vamos descendo, para os seus filhos e descendentes, chamamos de Especialização
+Quando pegamos do inverso da RAIZ da arvore chamamos de Generalização
+De cima para baixo é especialização 
+De baixo para cima é Generalização
+
+TIPOS DE HERANÇA
+
+1 - HERANÇA DE IMPLEMENTAÇÃO
+- Quando uma herança não implementa nada ela é chamada de herança pobre, pois apenas herda as caracteristicas da mãe
+
+2 - HERANÇA PARA DIFERENÇA 
+Quando uma subclasse pussui métodos e atributos e herda as propriedade e metodos da super classe essa herança é chamada de HERANÇA PARA IMPLEMENTAÇÃO
+
+CLASSE ABSTRATA
+ - Não pode ser instanciada. Só pode servir como progenitora.
+ - não é possível criar objetos com essa classe
+
+MÉTODO ABSTRATO
+- Declarado, mas não implementado na progenitora.
+
+CLASSE FINAL
+- Não pode ser herdada por outra classe. Obrigatoriamente folha.
+
+MÉTODO FINAL
+Não pode ser sobrescrito palas suas sub-classes. Obrigatoriamente herdado.
+
+
+POLIMORFISMO
+é a forma de instanciar metodos iguais, mas de jeitos diferentes
+
+quando uma classe estiver com "FINAL" ele não vai poder ter filhos.
+quando um método estiver com "FINAL"  ele não poderá ter seus métodos sobrescritos
