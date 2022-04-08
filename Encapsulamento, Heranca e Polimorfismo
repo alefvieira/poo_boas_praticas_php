@@ -142,9 +142,26 @@ CLASSE FINAL
 MÉTODO FINAL
 Não pode ser sobrescrito palas suas sub-classes. Obrigatoriamente herdado.
 
-
-POLIMORFISMO
-é a forma de instanciar metodos iguais, mas de jeitos diferentes
-
 quando uma classe estiver com "FINAL" ele não vai poder ter filhos.
 quando um método estiver com "FINAL"  ele não poderá ter seus métodos sobrescritos
+
+POLIMORFISMO
+
+POLI = muitas
+MORFO = formas
+
+é a forma de instanciar metodos iguais, mas de jeitos diferentes
+Permite que um mesmo nome represente vários comportamentos diferentes.
+
+ASSINATURA DO MÉTODO
+todo método possui uma assinatura, o que diferencia cada uma delas é a quantidade e os tipos de paramentros
+
+EXEMPLOS DE ASSINATURAS DIFERENTES
+public function calcMedia(int $n1, string $n2 ) 
+public function calcMedia(float $n1, string $n2 )
+public function calcMedia(float $n1, string $n2, $media, $nota1, $nota2 )
+
+TIPOS DE POLOMORFISMO
+1 - Sobreposição - O polimorfismo de sobreposição acontece quando substituimos um métodode uma superclasse na sua subclasse, usando a mesma assinatura.
+2 - Sobrecarga
+
