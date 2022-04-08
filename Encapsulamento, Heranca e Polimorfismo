@@ -162,6 +162,11 @@ public function calcMedia(float $n1, string $n2 )
 public function calcMedia(float $n1, string $n2, $media, $nota1, $nota2 )
 
 TIPOS DE POLOMORFISMO
-1 - Sobreposição - O polimorfismo de sobreposição acontece quando substituimos um métodode uma superclasse na sua subclasse, usando a mesma assinatura.
+1 - Sobreposição - (overlap)
+ O polimorfismo de sobreposição acontece quando substituimos um método de uma superclasse na sua subclasse, usando a mesma assinatura.
+sobreposição é sobrepor um método em uma classe diferente, desta forma, é como se o método estivesse sendo redeclarado, porém só funciona se o método for identico ao original(da classe mãe)
+A sobreposição acontece uma vez em cada classe e em classes diferentes
+
 2 - Sobrecarga
+A sobre carga
 
